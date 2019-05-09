@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAKA,IAAI;EACF,MAAM,EAAC,CAAC;EACR,OAAO,EAAE,CAAC;EACV,gBAAgB,EAAE,IAAI",
-"sources": ["../scss/master.scss"],
+"mappings": "AACQ,oEAA4D;AAEpE,EAAE;EACA,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,CAAC;EACd,WAAW,EAAE,uBAAuB;;ACDtC,IAAI;EACF,MAAM,EAAC,CAAC;EACR,OAAO,EAAE,CAAC;EACV,gBAAgB,EAAE,OAAO",
+"sources": ["../scss/_typography.scss","../scss/master.scss"],
 "names": [],
 "file": "master.css"
 }
