@@ -1,12 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:100");
 h1 {
-  font-size: 92px;
+  font-size: 72px;
   line-height: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100; }
+
+p {
+  font-weight: 100;
   font-family: 'Work Sans', sans-serif; }
 
 html {
   margin: 0;
   padding: 0;
   background-color: #F4F4F4; }
+
+body {
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=master.css.map */
