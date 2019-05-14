@@ -1,21 +1,116 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:100");
+article {
+  width: 100%;
+  display: grid; }
+
+article.column3 {
+  display: grid;
+  grid-template-columns: 455px 455px 445px;
+  grid-template-rows: 460px;
+  grid-column-gap: 30px; }
+
+article.column1 {
+  grid-template-columns: 1fr;
+  grid-template-rows: 44px 1fr; }
+
+.card {
+  display: grid;
+  grid-template-columns: 445px;
+  grid-template-rows: 259px 105px 44px;
+  margin: 0;
+  padding: 0; }
+  .card title-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #000000; }
+
+h1, h2, h3, body, label {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000; }
+
 h1 {
-  font-size: 72px;
-  line-height: 0;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 100; }
+  font-size: 40px;
+  font-weight: lighter; }
+
+h2 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: lighter; }
+
+h3 {
+  font-size: 26px;
+  margin: 0;
+  font-weight: lighter; }
+
+h4 {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #A7A7A7;
+  margin: 0 0 -2px 0; }
 
 p {
-  font-weight: 100;
-  font-family: 'Work Sans', sans-serif; }
+  font-size: 18px;
+  line-height: 19px;
+  margin: 5px 0 0 0; }
+
+label {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  width: 100%;
+  display: flex;
+  align-items: center; }
 
 html {
   margin: 0;
   padding: 0;
-  background-color: #F4F4F4; }
+  background-color: #FFFFFF; }
 
 body {
+  display: flex;
+  justify-content: center;
+  padding: 0;
   margin: 0;
-  padding: 0; }
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+content {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0;
+  margin: 4em 0.5em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+button {
+  margin: 0px 0px 7.5px 0;
+  height: 44px;
+  width: 164px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 100px;
+  transition: all 0.1s ease 0s; }
+
+button:hover {
+  background-color: #FD370C;
+  transform: translateY(-1px); }
 
 /*# sourceMappingURL=master.css.map */
