@@ -30,6 +30,12 @@ title-card{
   flex-direction: column;
   justify-content: flex-start;
 }
+
+.work-exp{
+display: grid;
+grid-template-columns: 44px repeat(58px, 3);
+}
+
 }
 
 .image{

@@ -23,6 +23,9 @@ article.column1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; }
+  .card .work-exp {
+    display: grid;
+    grid-template-columns: 44px repeat(58px, 3); }
 
 .image {
   display: flex;
