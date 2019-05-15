@@ -1,51 +1,62 @@
-
+@import url("https://rsms.me/inter/inter-ui.css");
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:100');
 @import "colours";
-h1, h2, h3, body, label{
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-color:$black;
+
+body,
+h1,
+h2,
+h3,
+label {
+  font-family: 'Inter UI', sans-serif;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: $black;
 }
 
-h1{
+h1 {
   font-size: 40px;
   font-weight: lighter;
+
+  .about {
+    display: flex;
+    align-items: center;
+  }
 }
 
-h2{
+h2 {
   font-size: 32px;
   margin: 0;
   font-weight: lighter;
 }
 
-h3{
-font-size: 26px;
-margin: 0;
-font-weight: lighter;
+h3 {
+  font-size: 26px;
+  margin: 0;
+  font-weight: lighter;
 }
-h4{
+
+h4 {
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
-  color:$grey;
-  margin:0 0 -2px 0;
-
+  color: $grey;
+  margin: 0 0 -2px;
 }
 
-p{
+p {
   font-size: 18px;
   line-height: 19px;
-  margin: 5px 0 0 0;
+  margin: 5px 0 0;
 }
 
+li {
+  list-style-type: none;
+  font-size: 18px;
+}
 
-label{
-  text-transform: capitalize;
-  font-size: 12px;
-  font-weight: 500;
-  border-bottom: 1px solid black;
-  width: 100%;
-  display:flex;
-  align-items: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
 }
