@@ -3,6 +3,27 @@
 @import "colours";
 @import "typography";
 
+navbutton{
+height: 44px;
+width: 44px;
+background-image: url(/img/Logo.svg);
+}
+
+navbutton:hover{
+background-image: url(/img/Logohover.svg);
+}
+
+navback{
+  height: 44px;
+  width: 44px;
+  background-image: url(/img/back.svg);
+}
+
+navback:hover{
+  height: 44px;
+  width: 44px;
+  background-image: url(/img/backhover.svg);
+}
 
 button{
 margin: 0px 0px 7.5px 0;
@@ -55,7 +76,8 @@ footer{
   display: flex;
   justify-content: space-between;
   border-top: 1px solid $black;
-  ul.footer-link{
+  padding: 15px 0 0 0;
+  ul, li.footer-link{
     display: inline;
   }
 }
