@@ -250,6 +250,9 @@ a {
 a:hover {
   color: #FD370C; }
 
+navbutton, navback, button a {
+  transition: all 0.1s ease 0s; }
+
 navbutton {
   height: 44px;
   width: 44px;
@@ -277,8 +280,7 @@ button {
   font-size: 12px;
   color: #FFFFFF;
   background-color: #000000;
-  border-radius: 100px;
-  transition: all 0.1s ease 0s; }
+  border-radius: 100px; }
 
 button:hover {
   background-color: #FD370C;
