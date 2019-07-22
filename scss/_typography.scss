@@ -1,70 +1,16 @@
-@import url("https://rsms.me/inter/inter-ui.css");
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:100');
-@import "colours";
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 
-body,
-h1,
-h2,
-h3,
-label {
-  font-family: 'Inter UI', sans-serif;
-  font-family: sans-serif;
-  font-style: normal;
+
+h1,h2,h3,p{
+  font-family: 'Inter', sans-serif;
+  color: $bone;
+}
+
+h1{
+  font-size: 26px;
   font-weight: normal;
-  color: $black;
-}
-
-h1 {
-  font-size: 2.5em;
-  font-weight: lighter;
-
-  .about {
-    display: flex;
-    align-items: center;
-  }
-}
-
-h2 {
-  font-size: 28px;
-  margin: 0;
-  font-weight: lighter;
-}
-
-h3 {
-  font-size: 24px;
-  margin: 0;
-  font-weight: lighter;
-}
-
-h4 {
-  font-weight: 500;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: $grey;
-  margin: 0 0 -2px;
-}
-
-p {
-  font-size: 14px;
-  line-height: 18px;
-  margin: 0 0 0 0;
-}
-
-li {
-  list-style-type: none;
-  font-size: 14px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 5px 0;
-}
-
-
-a{
-  color: $black;
-}
-a:hover{
-  color:$orange;
 }
