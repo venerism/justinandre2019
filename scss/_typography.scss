@@ -1,16 +1,33 @@
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+
+html {
+  font-family: 'Inter', sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
 }
 
-
-h1,h2,h3,p{
+h1,
+h2,
+h3,
+p {
   font-family: 'Inter', sans-serif;
   color: $bone;
 }
 
-h1{
+h1 {
   font-size: 26px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 16px;
   font-weight: normal;
 }
