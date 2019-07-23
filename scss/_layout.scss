@@ -26,3 +26,37 @@ content {
     width: 95%;
   }
 }
+
+nav{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 50px;
+}
+
+section{
+display: grid;
+grid-template-columns:repeat(12, 1fr);
+grid-column-gap: 30px;
+}
+
+article{
+display:flex;
+flex-direction: column;
+}
+
+
+//Classses
+
+.profile{
+  grid-column:1/7;
+}
+
+.pastexp{
+  grid-column: 8/13;
+  display: flex;
+  flex-direction: column;
+}
+
+
+// Classess
