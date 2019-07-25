@@ -1,33 +1,51 @@
-@import url('https://rsms.me/inter/inter.css');
-
-html {
-  font-family: 'Inter', sans-serif;
-}
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', sans-serif;
-  }
-}
-
-h1,
-h2,
-h3,
-p {
-  font-family: 'Inter', sans-serif;
-  color: $bone;
-}
-
-h1 {
-  font-size: 26px;
-  font-weight:normal;
-}
-
-h2 {
-  font-size: 12px;
-  font-weight: lighter;
-}
-
-p {
-  font-size: 16px;
+@font-face {
+  font-family: 'MaisonNeue-Mono';
+  src: url("../fonts/MaisonNeue-Mono.woff2") format('woff2'), url("../fonts/MaisonNeue-Mono.woff") format('woff');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaisonNeue-Book';
+    src: url('MaisonNeue-Book.woff2') format('woff2'),
+        url('MaisonNeue-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,caption,p,li{
+  color:$bone;
+}
+
+h2,caption,p,li{
+font-family:"MaisonNeue-Book", sans-serif;
+}
+
+//Largest Font Size//
+h1{
+font-family:"MaisonNeue-Mono", sans-serif;
+font-size: 36px;
+margin-top: 5px;
+}
+
+//2nd Largest Font Size//
+h2{
+font-size: 26px;
+font-weight: normal;
+}
+
+//Font above body copy//
+caption{
+font-size:2em;
+font-weight: normal;
+}
+//Body Copy//
+p{
+  font-size:16px;
+}
+
+li{
+  font-size:26px;
+  list-style: none;
+  margin-bottom: 10px;
 }

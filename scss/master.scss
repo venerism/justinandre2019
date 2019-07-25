@@ -4,3 +4,50 @@
 @import "typography";
 @import "components";
 @import "normalize";
+@import "images";
+
+
+html {
+  background-color: $drkgrey;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+content {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+content {
+  max-width: 1380px;
+  width: 100%;
+  margin: .75em 0.5em 1em;
+  margin: 0.75em 0.5em 1em;
+  flex-direction: column;
+  align-items: center;
+  @include for-phone-only {
+    width: 95%;
+  }
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 50px;
+}
+
+section{
+width: 100%;
+display: grid;
+grid-template-columns:repeat(12, 1fr);
+grid-column-gap: 30px;
+margin:70px 0 70px 0;
+}
+
+article{
+display:flex;
+flex-direction: column;
+}
