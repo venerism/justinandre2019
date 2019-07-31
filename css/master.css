@@ -83,10 +83,10 @@ a.nav-contact {
   background-image: url(../img/pitch-side.png); }
 
 #figma {
-  background-image: url(../img/figma.svg); }
+  background-image: url(../img/figma); }
 
 #notion {
-  background-image: url(../img/notion.svg); }
+  background-image: url(../img/notion); }
 
 .intro-l {
   grid-column: 1/7; }
@@ -380,10 +380,10 @@ a.nav-contact {
   background-image: url(../img/pitch-side.png); }
 
 #figma {
-  background-image: url(../img/figma.svg); }
+  background-image: url(../img/figma); }
 
 #notion {
-  background-image: url(../img/notion.svg); }
+  background-image: url(../img/notion); }
 
 .intro-l {
   grid-column: 1/7; }
@@ -976,10 +976,10 @@ template {
   background-image: url(../img/pitch-side.png); }
 
 #figma {
-  background-image: url(../img/figma.svg); }
+  background-image: url(../img/figma); }
 
 #notion {
-  background-image: url(../img/notion.svg); }
+  background-image: url(../img/notion); }
 
 html {
   background-color: #2D3035;
