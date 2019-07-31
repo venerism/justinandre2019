@@ -18,7 +18,7 @@ h1,h2,caption,p,li{
 }
 
 button{
-font-family:"MaisonNeue-Book", sans-serif;  
+font-family:"MaisonNeue-Book", sans-serif;
 font-size: 16px;}
 
 h2,caption,p,li{
@@ -49,7 +49,18 @@ p{
 }
 
 li{
-  font-size:26px;
+  font-size:16px;
   list-style: none;
   margin-bottom: 10px;
+}
+
+a{
+  font-family:"MaisonNeue-Mono", sans-serif;
+  color: $bone;
+  text-decoration: none;
+}
+
+a.nav-contact{
+  margin-block-start:1em;
+  margin-block-start:1em;
 }
