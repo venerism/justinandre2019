@@ -37,6 +37,11 @@ grid-column: 2/3;
 text-align: right;
 }
 
+
+#navbar{
+  opacity: 100%;
+  transition: 0.3s;
+}
 // Bunz Invetory Section //
 .bunz-1{
 grid-template-rows: 650px;

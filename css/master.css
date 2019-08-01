@@ -113,6 +113,10 @@ a.nav-contact {
   grid-column: 2/3;
   text-align: right; }
 
+#navbar {
+  opacity: 100%;
+  transition: 0.3s; }
+
 .bunz-1 {
   grid-template-rows: 650px; }
 
@@ -409,6 +413,10 @@ a.nav-contact {
   grid-row: 2/3;
   grid-column: 2/3;
   text-align: right; }
+
+#navbar {
+  opacity: 100%;
+  transition: 0.3s; }
 
 .bunz-1 {
   grid-template-rows: 650px; }
@@ -1011,7 +1019,7 @@ nav {
   position: fixed;
   top: 0%;
   max-width: 1380px;
-  background-color: #2D3035; }
+  background: linear-gradient(to bottom, #2D3035, #2D3035 50%); }
 
 section {
   width: 100%;

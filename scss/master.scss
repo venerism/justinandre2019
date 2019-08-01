@@ -40,7 +40,7 @@ height: 50px;
 position: fixed;
 top: 0%;
 max-width: 1380px;
-background-color: $drkgrey;
+background: linear-gradient(to bottom, $drkgrey, $drkgrey 50%);
 }
 
 section{
