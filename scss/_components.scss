@@ -3,12 +3,10 @@
 @import "colours";
 @import "typography";
 
-
-
-button{
-  min-width:140px;
+button {
+  min-width: 140px;
   max-width: 180px;
-  max-height:45px;
+  max-height: 45px;
   min-height: 50px;
   text-align: center;
   border: none;
@@ -21,37 +19,36 @@ button{
   margin-right: 15px;
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
   opacity: 0.6;
- transition: 0.3s;
+  transition: 0.3s;
 }
 
-.figma{
+.figma {
   background-color: $black;
   color: $white;
-  font-family:"MaisonNeue-Book", sans-serif;
+  font-family: "MaisonNeue-Book", sans-serif;
   font-size: 16px;
 }
 
-.notion{
+.notion {
   background-color: $white;
-  font-family:"MaisonNeue-Book", sans-serif;
+  font-family: "MaisonNeue-Book", sans-serif;
   font-size: 16px;
 }
 
-.figma:hover{
+.figma:hover {
   background-color: $bone;
   color: $black;
 }
 
-.notion:hover{
+.notion:hover {
   background-color: $bone;
   color: $black;
 }
 
-
-i{
+i {
   background-size: cover;
   background-repeat: no-repeat;
   //border: 1px solid red;
@@ -60,11 +57,10 @@ i{
   margin-right: 5px;
 }
 
-i.notion-icon{
-  background-image: url(../img/notion.png);
+i.notion-icon {
+  background-image: url("../img/notion.png");
 }
 
-i.figma-icon{
-  background-image: url(../img/figma.png);
-
+i.figma-icon {
+  background-image: url("../img/figma.png");
 }
