@@ -244,7 +244,7 @@ a.nav-contact {
     grid-column: 2/3; }
 
 .box {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start; }
@@ -545,7 +545,7 @@ a.nav-contact {
     grid-column: 2/3; }
 
 .box {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start; }
