@@ -244,6 +244,8 @@ b {
   grid-column: 8/13; }
 
 .footer {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
   margin-top: 200px;
   grid-template-rows: 400px 200px; }
 
@@ -596,6 +598,8 @@ b {
   grid-column: 8/13; }
 
 .footer {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
   margin-top: 200px;
   grid-template-rows: 400px 200px; }
 

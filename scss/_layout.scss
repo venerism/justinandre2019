@@ -175,6 +175,8 @@ grid-column: 8/13;
 // Footer Section//
 
 .footer{
+overflow-y: scroll;
+scroll-behavior: smooth;
 margin-top: 200px;
 grid-template-rows: 400px 200px;
 }
@@ -207,7 +209,7 @@ grid-column: 2/3;
 
 }
 
-
+#1{}
 
 // Button Container //
 
