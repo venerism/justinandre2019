@@ -13,9 +13,20 @@
 <body>
 
   <content>
-    <nav id="navbar">
-      <p>justinandre</p>
-      <a class="nav-contact" href="mailto:justinveneracion11@gmail.com?Subject=Hello%20Justin!">contact</a>
+    <nav class="top" id="navbar">
+      <a class="nav-contact" href="#">justinandre</a>
+      <aside class="nav-link">
+        <a class="nav-contact" href="mailto:justinveneracion11@gmail.com?Subject=Hello%20Justin!">info</a>
+        <a class="nav-contact" href="mailto:justinveneracion11@gmail.com?Subject=Hello%20Justin!">contact</a>
+
+      </aside>
+    </nav>
+
+    <nav class="bottom">
+    <b> &#8226; Currently seeking for Full time postions</b>
+    <aside class="nav-link">
+      <p class="nav-contact">Last updated: Aug 2019</p>
+    </aside>
     </nav>
 
 
@@ -25,42 +36,7 @@
         <h1>Justin is a multidisciplinary designer focused on creating strong branding assets, websites, user interfaces and intuitive user experiences.</h1>
       </article>
 
-    <!--  <article class="intro-r">
-        <p>Past Experiences </p>
-        <div class="list">
-          <aside id="name">
-            <p>Ada</p>
-          </aside>
-          <aside id="title"><h2>Visual Designer</h2>
-          </aside>
-          <aside id="date">
-            <p>2018 - 2019</p>
-          </aside>
-        </div>
 
-        <div class="list">
-          <aside id="name">
-            <p>Icon(Zurich)</p>
-          </aside>
-          <aside id="title"><h2>UI/UX Intern</h2>
-          </aside>
-          <aside id="date">
-            <p>Spring - Fall 2017</p>
-          </aside>
-        </div>
-
-        <div class="list">
-          <aside id="name">
-            <p>1Password</p>
-          </aside>
-          <aside id="title"><h2>Designer / Web Developer</h2>
-          </aside>
-          <aside id="date">
-            <p>Summer - Spring 2017</p>
-          </aside>
-        </div>
-
-      </article> -->
 
     </section>
 
@@ -140,7 +116,6 @@ articles, one pagers, illustrations, blog templates.</p>
 
 
       </article>
-      <article class="ada-1r">
         <article class="ada-2l">
           <li>Article Templates</li>
           <li>Illustrations</li>
@@ -157,7 +132,6 @@ articles, one pagers, illustrations, blog templates.</p>
           <li>Presentations</li>
         </article>
 
-      </article>
     </section>
 
     <section class="ada3">
@@ -215,8 +189,47 @@ the screens for Pitch In. Some are discarded, Some are kept and customized, Chec
 
     <section class="footer">
       <article class="footer-span">
-        <h1>Thank you for viewing my designs. If you have any questions, some feedback you want to share, or a potential collaboration, please shoot me a message.</h1>
+        <h3>Thank you for viewing my designs. Send me a message if you have any questions, some feedback you want to share, or a potential collaborations.</h3>
       </article>
+
+       <article class="footer-side">
+          <p>Past Experiences </p>
+          <div class="list">
+            <aside id="name">
+              <p>Ada</p>
+            </aside>
+            <aside id="title"><p>Visual Designer</p>
+            </aside>
+            <aside id="date">
+              <p>2018 - 2019</p>
+            </aside>
+          </div>
+
+          <div class="list">
+            <aside id="name">
+              <p>Icon(Zurich)</p>
+            </aside>
+            <aside id="title"><p>UI/UX Intern</p>
+            </aside>
+            <aside id="date">
+              <p>Spring - Fall 2017</p>
+            </aside>
+          </div>
+
+          <div class="list">
+            <aside id="name">
+              <p>1Password</p>
+            </aside>
+            <aside id="title"><p>Designer / Web Developer</p>
+            </aside>
+            <aside id="date">
+              <p>Summer - Spring 2017</p>
+            </aside>
+          </div>
+
+        </article>
+
+
       <article class="footer-mark">
         <p>justin andre veneracion</p>
       </article>
@@ -249,7 +262,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-50px";
+    document.getElementById("navbar").style.top = "-70px";
   }
   prevScrollpos = currentScrollPos;
 }
