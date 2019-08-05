@@ -1,42 +1,57 @@
-@font-face {
-  font-family: 'MaisonNeue-Mono';
-  src: url("../fonts/MaisonNeue-Mono.woff2") format('woff2'), url("../fonts/MaisonNeue-Mono.woff") format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
-    font-family: 'MaisonNeue-Book';
-    src: url('MaisonNeue-Book.woff2') format('woff2'),
-        url('MaisonNeue-Book.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGrotesk-Regular.woff2') format('woff2'),
+        url('AktivGrotesk-Regular.woff') format('woff');
+    font-weight: lighter;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Light.woff2') format('woff2'),
+        url('Canela-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+
 h1,h2,caption,p,li{
-  color:$bone;
+  color:$gunmetal;
 }
 
 button{
-font-family:"MaisonNeue-Book", sans-serif;
+font-family:"Aktiv Grotesk", sans-serif;
 font-size: 16px;}
 
 h2,caption,p,li{
-font-family:"MaisonNeue-Book", sans-serif;
+font-family:"Aktiv Grotesk", sans-serif;
 }
 
 //Largest Font Size//
 h1{
-font-family:"MaisonNeue-Mono", sans-serif;
-font-size: 36px;
+font-family:"Canela", serif;
+font-size: 64px;
+margin-bottom: 5px;
 margin-top: 5px;
+font-weight: lighter;
 }
 
 //2nd Largest Font Size//
 h2{
-font-size: 26px;
+font-size: 36px;
 font-weight: normal;
 }
+
+h3{
+font-family:"Canela", serif;
+font-size: 36px;
+font-weight: lighter;
+margin-top: 0px;
+margin-bottom: 30px;
+}
+
 
 //Font above body copy//
 caption{
@@ -45,7 +60,9 @@ font-weight: normal;
 }
 //Body Copy//
 p{
-  font-size:16px;
+  font-size:18px;
+  line-height: 23px;
+  margin-top: 0px;
 }
 
 li{
@@ -55,8 +72,8 @@ li{
 }
 
 a{
-  font-family:"MaisonNeue-Mono", sans-serif;
-  color: $bone;
+  font-family:"Aktiv Grotesk", sans-serif;
+  color: $gunmetal;
   text-decoration: none;
 }
 
