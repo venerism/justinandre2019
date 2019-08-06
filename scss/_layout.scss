@@ -171,6 +171,25 @@ grid-column: 1/7;
 grid-column: 8/13;
 }
 
+// Moving Posters
+
+.posters{
+grid-template-rows: 660px 350px 600px 200px;
+.poster-full{
+grid-column: 1/13;
+grid-row: 1/2;
+}
+.poster-l{
+grid-column: 1/6;
+grid-row: 2/3;
+}
+.poster-v{
+grid-column: 1/13;
+grid-row:3/4;
+}
+
+}
+
 
 // Footer Section//
 
@@ -226,3 +245,6 @@ justify-content: flex-start;
   flex-direction: row;
   text-align: right;
 }
+
+
+// Seperator //

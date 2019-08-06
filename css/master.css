@@ -118,6 +118,9 @@ b {
 #notion {
   background-image: url(../img/notion.svg); }
 
+#poster-hero {
+  background-image: url(../img/posters-full.png); }
+
 .intro {
   grid-template-rows: 100px 400px 100px; }
 
@@ -253,6 +256,18 @@ b {
 
 .pitch-3r {
   grid-column: 8/13; }
+
+.posters {
+  grid-template-rows: 660px 350px 600px 200px; }
+  .posters .poster-full {
+    grid-column: 1/13;
+    grid-row: 1/2; }
+  .posters .poster-l {
+    grid-column: 1/6;
+    grid-row: 2/3; }
+  .posters .poster-v {
+    grid-column: 1/13;
+    grid-row: 3/4; }
 
 .footer {
   overflow-y: scroll;
@@ -495,6 +510,9 @@ b {
 #notion {
   background-image: url(../img/notion.svg); }
 
+#poster-hero {
+  background-image: url(../img/posters-full.png); }
+
 .intro {
   grid-template-rows: 100px 400px 100px; }
 
@@ -630,6 +648,18 @@ b {
 
 .pitch-3r {
   grid-column: 8/13; }
+
+.posters {
+  grid-template-rows: 660px 350px 600px 200px; }
+  .posters .poster-full {
+    grid-column: 1/13;
+    grid-row: 1/2; }
+  .posters .poster-l {
+    grid-column: 1/6;
+    grid-row: 2/3; }
+  .posters .poster-v {
+    grid-column: 1/13;
+    grid-row: 3/4; }
 
 .footer {
   overflow-y: scroll;
@@ -1143,6 +1173,9 @@ template {
 
 #notion {
   background-image: url(../img/notion.svg); }
+
+#poster-hero {
+  background-image: url(../img/posters-full.png); }
 
 html {
   background-color: #FFFFFF;
