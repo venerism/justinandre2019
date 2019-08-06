@@ -70,7 +70,7 @@ p{
 }
 
 li{
-  font-size:16px;
+  font-size:18px;
   list-style: none;
   margin-bottom: 10px;
 }
@@ -92,13 +92,18 @@ b{
   text-decoration: underline;
 }
 
+.casestudy:hover{
+  transition: 0.3s;
+  color: $green;
+  cursor: pointer;
+}
+
 .arrow{
   margin-right: 0.5em;
 }
 
 .subtitle{
   font-size: 14px;
-  text-transform: uppercase;
   color:$grey;
 }
 

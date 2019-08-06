@@ -47,7 +47,7 @@ p {
   margin-top: 0px; }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
   list-style: none;
   margin-bottom: 10px; }
 
@@ -64,12 +64,16 @@ b {
 .casestudy {
   text-decoration: underline; }
 
+.casestudy:hover {
+  transition: 0.3s;
+  color: #00D77C;
+  cursor: pointer; }
+
 .arrow {
   margin-right: 0.5em; }
 
 .subtitle {
   font-size: 14px;
-  text-transform: uppercase;
   color: #9F9F9F; }
 
 .nav-contact {
@@ -122,8 +126,11 @@ b {
 #poster-hero {
   background-image: url(../img/posters-full.png); }
 
+#border {
+  background-image: url(../img/border.png); }
+
 .intro {
-  grid-template-rows: 100px 400px 100px; }
+  grid-template-rows: 200px 400px 50px; }
 
 .intro-l {
   grid-column: 1/12;
@@ -182,7 +189,7 @@ b {
   grid-row: 2/3; }
 
 .bunz-3 {
-  grid-template-rows: 100px 400px 100px; }
+  grid-template-rows: 100px 400px 50px; }
 
 .bunz-3r {
   grid-column: 8/13;
@@ -193,7 +200,7 @@ b {
   grid-row: 1/4; }
 
 .ada1 {
-  grid-template-rows: 800px 300px;
+  grid-template-rows: 800px 550px;
   grid-row-gap: 80px; }
 
 .ada-1full {
@@ -212,7 +219,7 @@ b {
 
 .ada2 {
   width: 100%;
-  grid-template-rows: 542px; }
+  grid-template-rows: 572px; }
 
 .ada-2r {
   grid-column: 1/13; }
@@ -235,14 +242,14 @@ b {
   grid-row: 1/4; }
 
 .pitch2 {
-  grid-template-rows: 720px 1fr; }
+  grid-template-rows: 720px 200px 100px; }
 
 .pitch-2f {
   grid-column: 1/13;
   grid-row: 1/2; }
 
 .pitch-2l {
-  grid-column: 1/5;
+  grid-column: 1/6;
   grid-row: 2/3; }
 
 .pitch-2r {
@@ -311,6 +318,16 @@ b {
   flex-direction: row;
   text-align: right; }
 
+.border {
+  grid-template-rows: repeat(3, 100px); }
+  .border .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 5/9; }
+
 @font-face {
   font-family: 'Aktiv Grotesk';
   src: url("../fonts/AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
@@ -360,7 +377,7 @@ p {
   margin-top: 0px; }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
   list-style: none;
   margin-bottom: 10px; }
 
@@ -377,12 +394,16 @@ b {
 .casestudy {
   text-decoration: underline; }
 
+.casestudy:hover {
+  transition: 0.3s;
+  color: #00D77C;
+  cursor: pointer; }
+
 .arrow {
   margin-right: 0.5em; }
 
 .subtitle {
   font-size: 14px;
-  text-transform: uppercase;
   color: #9F9F9F; }
 
 .nav-contact {
@@ -441,7 +462,7 @@ p {
   margin-top: 0px; }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
   list-style: none;
   margin-bottom: 10px; }
 
@@ -458,12 +479,16 @@ b {
 .casestudy {
   text-decoration: underline; }
 
+.casestudy:hover {
+  transition: 0.3s;
+  color: #00D77C;
+  cursor: pointer; }
+
 .arrow {
   margin-right: 0.5em; }
 
 .subtitle {
   font-size: 14px;
-  text-transform: uppercase;
   color: #9F9F9F; }
 
 .nav-contact {
@@ -516,8 +541,11 @@ b {
 #poster-hero {
   background-image: url(../img/posters-full.png); }
 
+#border {
+  background-image: url(../img/border.png); }
+
 .intro {
-  grid-template-rows: 100px 400px 100px; }
+  grid-template-rows: 200px 400px 50px; }
 
 .intro-l {
   grid-column: 1/12;
@@ -576,7 +604,7 @@ b {
   grid-row: 2/3; }
 
 .bunz-3 {
-  grid-template-rows: 100px 400px 100px; }
+  grid-template-rows: 100px 400px 50px; }
 
 .bunz-3r {
   grid-column: 8/13;
@@ -587,7 +615,7 @@ b {
   grid-row: 1/4; }
 
 .ada1 {
-  grid-template-rows: 800px 300px;
+  grid-template-rows: 800px 550px;
   grid-row-gap: 80px; }
 
 .ada-1full {
@@ -606,7 +634,7 @@ b {
 
 .ada2 {
   width: 100%;
-  grid-template-rows: 542px; }
+  grid-template-rows: 572px; }
 
 .ada-2r {
   grid-column: 1/13; }
@@ -629,14 +657,14 @@ b {
   grid-row: 1/4; }
 
 .pitch2 {
-  grid-template-rows: 720px 1fr; }
+  grid-template-rows: 720px 200px 100px; }
 
 .pitch-2f {
   grid-column: 1/13;
   grid-row: 1/2; }
 
 .pitch-2l {
-  grid-column: 1/5;
+  grid-column: 1/6;
   grid-row: 2/3; }
 
 .pitch-2r {
@@ -705,6 +733,16 @@ b {
   flex-direction: row;
   text-align: right; }
 
+.border {
+  grid-template-rows: repeat(3, 100px); }
+  .border .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 5/9; }
+
 @font-face {
   font-family: 'Aktiv Grotesk';
   src: url("../fonts/AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
@@ -754,7 +792,7 @@ p {
   margin-top: 0px; }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
   list-style: none;
   margin-bottom: 10px; }
 
@@ -771,12 +809,16 @@ b {
 .casestudy {
   text-decoration: underline; }
 
+.casestudy:hover {
+  transition: 0.3s;
+  color: #00D77C;
+  cursor: pointer; }
+
 .arrow {
   margin-right: 0.5em; }
 
 .subtitle {
   font-size: 14px;
-  text-transform: uppercase;
   color: #9F9F9F; }
 
 .nav-contact {
@@ -787,6 +829,10 @@ b {
   font-weight: lighter; }
 
 button {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: "Aktiv Grotesk", sans-serif;
+  font-size: 16px;
   min-width: 140px;
   max-width: 180px;
   max-height: 45px;
@@ -803,40 +849,10 @@ button {
 
 button:hover {
   cursor: pointer;
-  opacity: 0.6;
-  transition: 0.3s; }
-
-.figma {
-  background-color: #000000;
-  color: #FFFFFF;
-  font-family: "MaisonNeue-Book", sans-serif;
-  font-size: 16px; }
-
-.notion {
+  transition: 0.3s;
   background-color: #FFFFFF;
-  font-family: "MaisonNeue-Book", sans-serif;
-  font-size: 16px; }
-
-.figma:hover {
-  background-color: #9F9F9F;
-  color: #000000; }
-
-.notion:hover {
-  background-color: #9F9F9F;
-  color: #000000; }
-
-i {
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 25px;
-  min-width: 25px;
-  margin-right: 5px; }
-
-i.notion-icon {
-  background-image: url("../img/notion.png"); }
-
-i.figma-icon {
-  background-image: url("../img/figma.png"); }
+  color: #000000;
+  border: 1px solid #2D3035; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1181,6 +1197,9 @@ template {
 #poster-hero {
   background-image: url(../img/posters-full.png); }
 
+#border {
+  background-image: url(../img/border.png); }
+
 html {
   background-color: #FFFFFF;
   margin: 0;
@@ -1204,7 +1223,7 @@ content {
       width: 95%; } }
 
 .top {
-  top: 100%;
+  top: 0%;
   background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0)); }
 
 .bottom {
