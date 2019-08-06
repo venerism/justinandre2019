@@ -1,11 +1,12 @@
 @font-face {
   font-family: 'Aktiv Grotesk';
-  src: url("AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
+  src: url("../fonts/AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
   font-weight: lighter;
   font-style: normal; }
 @font-face {
   font-family: 'Canela';
-  src: url("Canela-Light.woff2") format("woff2"), url("Canela-Light.woff") format("woff");
+  src: url("../fonts/Canela-Light-Web.eot");
+  src: url("../fonts/Canela-Light.woff2") format("woff2"), url("../fonts/Canela-Light.woff") format("woff");
   font-weight: lighter;
   font-style: normal; }
 h1, h2, caption, p, li, h4 {
@@ -312,12 +313,13 @@ b {
 
 @font-face {
   font-family: 'Aktiv Grotesk';
-  src: url("AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
+  src: url("../fonts/AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
   font-weight: lighter;
   font-style: normal; }
 @font-face {
   font-family: 'Canela';
-  src: url("Canela-Light.woff2") format("woff2"), url("Canela-Light.woff") format("woff");
+  src: url("../fonts/Canela-Light-Web.eot");
+  src: url("../fonts/Canela-Light.woff2") format("woff2"), url("../fonts/Canela-Light.woff") format("woff");
   font-weight: lighter;
   font-style: normal; }
 h1, h2, caption, p, li, h4 {
@@ -392,12 +394,13 @@ b {
 
 @font-face {
   font-family: 'Aktiv Grotesk';
-  src: url("AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
+  src: url("../fonts/AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
   font-weight: lighter;
   font-style: normal; }
 @font-face {
   font-family: 'Canela';
-  src: url("Canela-Light.woff2") format("woff2"), url("Canela-Light.woff") format("woff");
+  src: url("../fonts/Canela-Light-Web.eot");
+  src: url("../fonts/Canela-Light.woff2") format("woff2"), url("../fonts/Canela-Light.woff") format("woff");
   font-weight: lighter;
   font-style: normal; }
 h1, h2, caption, p, li, h4 {
@@ -704,12 +707,13 @@ b {
 
 @font-face {
   font-family: 'Aktiv Grotesk';
-  src: url("AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
+  src: url("../fonts/AktivGrotesk-Regular.woff2") format("woff2"), url("AktivGrotesk-Regular.woff") format("woff");
   font-weight: lighter;
   font-style: normal; }
 @font-face {
   font-family: 'Canela';
-  src: url("Canela-Light.woff2") format("woff2"), url("Canela-Light.woff") format("woff");
+  src: url("../fonts/Canela-Light-Web.eot");
+  src: url("../fonts/Canela-Light.woff2") format("woff2"), url("../fonts/Canela-Light.woff") format("woff");
   font-weight: lighter;
   font-style: normal; }
 h1, h2, caption, p, li, h4 {
