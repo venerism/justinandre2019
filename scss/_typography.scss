@@ -40,6 +40,9 @@ font-size: 64px;
 margin-bottom: 5px;
 margin-top: 5px;
 font-weight: lighter;
+@include for-tablet-portait-up{
+font-size: 40px;
+    }
 }
 
 //2nd Largest Font Size//
@@ -83,7 +86,6 @@ a{
 }
 
 b{
-  color: $green;
   font-size: 12px;
 }
 
