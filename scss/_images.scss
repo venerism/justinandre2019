@@ -5,6 +5,9 @@
 
 #bunz-hero{
   background-image: url(../img/bunz-hero.png);
+  @include for-tablet-landscape-up{
+    background-image: url(../img/bunz-hero-v.png);
+  }
 }
 
 #bunz-full{
@@ -20,23 +23,39 @@
 
 #bunz-v{
   background-image: url(../img/bunz-v.png);
+  @include for-tablet-landscape-up{
+    background-image: url(../img/bunz-v-v.png);
+  }
 }
 
 // Ada ---------- Ada //
 
 #ada-full{
   background-image: url(../img/ada-full.png);
+  @include for-tablet-landscape-up{
+    background-image: url(../img/ada-full-v.png);
+  }
 }
 
 #ada-side{
   background-image: url(../img/ada-side.png);
+  @include for-tablet-landscape-up{
+    background-image: url(../img/ada-side-v.png);
+  }
 }
+
 #ada-ill{
   background-image: url(../img/ada-ill.png);
+  @include for-tablet-landscape-up{
+    background-image: url(../img/ada-ill-v.png);
+  }
 }
 
 #pitch-hero{
   background-image: url(../img/pitch-hero.png);
+  @include for-tablet-landscape-up{
+    background-image: url(../img/pitch-hero-v.png);
+  }
 }
 #pitch-full{
   background-image: url(../img/pitch-full.png);
@@ -55,6 +74,9 @@ background-image: url(../img/notion.svg);
 
 #poster-hero{
   background-image: url(../img/posters-full.png);
+  @include for-tablet-landscape-up{
+    background-image: url(../img/posters-full-v.png);
+  }
 }
 
 #border{
