@@ -1686,6 +1686,9 @@ content {
 .bottom {
   bottom: 0;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white); }
+  @media (max-width: 768px) {
+    .bottom {
+      display: none; } }
 
 nav {
   z-index: 100;
