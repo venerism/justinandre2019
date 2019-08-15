@@ -33,11 +33,14 @@ h1 {
   font-weight: lighter; }
   @media (max-width: 768px) {
     h1 {
-      font-size: 40px; } }
+      font-size: 36px; } }
 
 h2 {
   font-size: 36px;
   font-weight: normal; }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 32px; } }
 
 h3 {
   font-family: "Canela", serif;
@@ -45,6 +48,9 @@ h3 {
   font-weight: lighter;
   margin-top: 0px;
   margin-bottom: 30px; }
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 32px; } }
 
 h4 {
   font-size: 2em;
@@ -54,17 +60,26 @@ p {
   font-size: 18px;
   line-height: 23px;
   margin-top: 0px; }
+  @media (max-width: 768px) {
+    p {
+      font-size: 14px; } }
 
 li {
   font-size: 18px;
   list-style: none;
   margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    li {
+      font-size: 14px; } }
 
 a {
   font-size: 18px;
   font-family: "Aktiv Grotesk", sans-serif;
   color: #2D3035;
   text-decoration: none; }
+  @media (max-width: 768px) {
+    a {
+      font-size: 14px; } }
 
 b {
   font-size: 12px; }
@@ -83,6 +98,9 @@ b {
 .subtitle {
   font-size: 14px;
   color: #9F9F9F; }
+  @media (max-width: 768px) {
+    .subtitle {
+      font-size: 14px; } }
 
 .nav-contact {
   margin-block-start: 1em;
@@ -166,6 +184,9 @@ b {
 
 .intro {
   grid-template-rows: 200px 400px 50px; }
+  @media (max-width: 900px) {
+    .intro {
+      grid-template-rows: 200px 300px 50px; } }
 
 .intro-l {
   grid-column: 1/12;
@@ -521,11 +542,14 @@ h1 {
   font-weight: lighter; }
   @media (max-width: 768px) {
     h1 {
-      font-size: 40px; } }
+      font-size: 36px; } }
 
 h2 {
   font-size: 36px;
   font-weight: normal; }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 32px; } }
 
 h3 {
   font-family: "Canela", serif;
@@ -533,6 +557,9 @@ h3 {
   font-weight: lighter;
   margin-top: 0px;
   margin-bottom: 30px; }
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 32px; } }
 
 h4 {
   font-size: 2em;
@@ -542,17 +569,26 @@ p {
   font-size: 18px;
   line-height: 23px;
   margin-top: 0px; }
+  @media (max-width: 768px) {
+    p {
+      font-size: 14px; } }
 
 li {
   font-size: 18px;
   list-style: none;
   margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    li {
+      font-size: 14px; } }
 
 a {
   font-size: 18px;
   font-family: "Aktiv Grotesk", sans-serif;
   color: #2D3035;
   text-decoration: none; }
+  @media (max-width: 768px) {
+    a {
+      font-size: 14px; } }
 
 b {
   font-size: 12px; }
@@ -571,6 +607,9 @@ b {
 .subtitle {
   font-size: 14px;
   color: #9F9F9F; }
+  @media (max-width: 768px) {
+    .subtitle {
+      font-size: 14px; } }
 
 .nav-contact {
   margin-block-start: 1em;
@@ -614,11 +653,14 @@ h1 {
   font-weight: lighter; }
   @media (max-width: 768px) {
     h1 {
-      font-size: 40px; } }
+      font-size: 36px; } }
 
 h2 {
   font-size: 36px;
   font-weight: normal; }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 32px; } }
 
 h3 {
   font-family: "Canela", serif;
@@ -626,6 +668,9 @@ h3 {
   font-weight: lighter;
   margin-top: 0px;
   margin-bottom: 30px; }
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 32px; } }
 
 h4 {
   font-size: 2em;
@@ -635,17 +680,26 @@ p {
   font-size: 18px;
   line-height: 23px;
   margin-top: 0px; }
+  @media (max-width: 768px) {
+    p {
+      font-size: 14px; } }
 
 li {
   font-size: 18px;
   list-style: none;
   margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    li {
+      font-size: 14px; } }
 
 a {
   font-size: 18px;
   font-family: "Aktiv Grotesk", sans-serif;
   color: #2D3035;
   text-decoration: none; }
+  @media (max-width: 768px) {
+    a {
+      font-size: 14px; } }
 
 b {
   font-size: 12px; }
@@ -664,6 +718,9 @@ b {
 .subtitle {
   font-size: 14px;
   color: #9F9F9F; }
+  @media (max-width: 768px) {
+    .subtitle {
+      font-size: 14px; } }
 
 .nav-contact {
   margin-block-start: 1em;
@@ -747,6 +804,9 @@ b {
 
 .intro {
   grid-template-rows: 200px 400px 50px; }
+  @media (max-width: 900px) {
+    .intro {
+      grid-template-rows: 200px 300px 50px; } }
 
 .intro-l {
   grid-column: 1/12;
@@ -1102,11 +1162,14 @@ h1 {
   font-weight: lighter; }
   @media (max-width: 768px) {
     h1 {
-      font-size: 40px; } }
+      font-size: 36px; } }
 
 h2 {
   font-size: 36px;
   font-weight: normal; }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 32px; } }
 
 h3 {
   font-family: "Canela", serif;
@@ -1114,6 +1177,9 @@ h3 {
   font-weight: lighter;
   margin-top: 0px;
   margin-bottom: 30px; }
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 32px; } }
 
 h4 {
   font-size: 2em;
@@ -1123,17 +1189,26 @@ p {
   font-size: 18px;
   line-height: 23px;
   margin-top: 0px; }
+  @media (max-width: 768px) {
+    p {
+      font-size: 14px; } }
 
 li {
   font-size: 18px;
   list-style: none;
   margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    li {
+      font-size: 14px; } }
 
 a {
   font-size: 18px;
   font-family: "Aktiv Grotesk", sans-serif;
   color: #2D3035;
   text-decoration: none; }
+  @media (max-width: 768px) {
+    a {
+      font-size: 14px; } }
 
 b {
   font-size: 12px; }
@@ -1152,6 +1227,9 @@ b {
 .subtitle {
   font-size: 14px;
   color: #9F9F9F; }
+  @media (max-width: 768px) {
+    .subtitle {
+      font-size: 14px; } }
 
 .nav-contact {
   margin-block-start: 1em;

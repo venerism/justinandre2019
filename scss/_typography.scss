@@ -41,7 +41,7 @@ margin-bottom: 5px;
 margin-top: 5px;
 font-weight: lighter;
 @include for-tablet-portait-up{
-font-size: 40px;
+font-size: 36px;
     }
 }
 
@@ -49,6 +49,9 @@ font-size: 40px;
 h2{
 font-size: 36px;
 font-weight: normal;
+@include for-tablet-portait-up{
+font-size: 32px;
+    }
 }
 
 h3{
@@ -57,6 +60,9 @@ font-size: 36px;
 font-weight: lighter;
 margin-top: 0px;
 margin-bottom: 30px;
+@include for-tablet-portait-up{
+font-size: 32px;
+    }
 }
 
 
@@ -70,12 +76,18 @@ p{
   font-size:18px;
   line-height: 23px;
   margin-top: 0px;
+  @include for-tablet-portait-up{
+  font-size: 14px;
+      }
 }
 
 li{
   font-size:18px;
   list-style: none;
   margin-bottom: 10px;
+  @include for-tablet-portait-up{
+  font-size: 14px;
+      }
 }
 
 a{
@@ -83,6 +95,9 @@ a{
   font-family:"Aktiv Grotesk", sans-serif;
   color: $gunmetal;
   text-decoration: none;
+  @include for-tablet-portait-up{
+  font-size: 14px;
+      }
 }
 
 b{
@@ -107,6 +122,9 @@ b{
 .subtitle{
   font-size: 14px;
   color:$grey;
+  @include for-tablet-portait-up{
+  font-size: 14px;
+      }
 }
 
 .nav-contact{
