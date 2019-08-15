@@ -46,12 +46,15 @@ z-index: 100;
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 100%;
+width: 98%;
 height: 70px;
 position: fixed;
 max-width: 1380px;
 background: linear-gradient(to bottom, $white, $white 50%);
 @include for-tablet-landscape-up{
+  width: 90%;
+}
+@include for-desktop{
   width: 90%;
 }
 }
