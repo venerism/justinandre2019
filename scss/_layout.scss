@@ -265,7 +265,7 @@ grid-row:3/4;
 .posters{
 grid-template-rows: 660px 350px 600px 200px;
 @include for-tablet-landscape-up{
-grid-template-rows: 1050px 350px 100px 200px;
+grid-template-rows: 800px 350px 100px 200px;
 }
 
 
@@ -307,7 +307,7 @@ margin-top: 200px;
 grid-template-rows: 400px 200px;
 grid-row-gap: 80px;
 @include for-tablet-landscape-up{
-  grid-template-rows: 160px 100px;
+  grid-template-rows: 260px 100px;
 }
 
 }
