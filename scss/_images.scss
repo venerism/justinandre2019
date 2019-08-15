@@ -9,6 +9,9 @@
 
 #bunz-full{
   background-image: url(../img/bunz-full.png);
+  @include for-tablet-landscape-up{
+    background-image: url(../img/bunz-full-v.png);
+  }
 }
 
 #bunz-wireframe{
@@ -56,4 +59,7 @@ background-image: url(../img/notion.svg);
 
 #border{
   background-image: url(../img/border.png);
+  @include for-tablet-landscape-up{
+    display: none;
+  }
 }

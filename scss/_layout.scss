@@ -29,6 +29,10 @@ grid-template-rows: 100px 595px 100px;
 @include for-tablet-portait-up{
 grid-template-rows: repeat(2, 595px);
     }
+@include for-tablet-landscape-up {
+  grid-template-rows: 400px 620px;
+  grid-row-gap: 60px
+}
 
 }
 .bunz-l{
@@ -36,9 +40,12 @@ grid-column: 1/6;
 grid-row: 2/3;
 @include for-tablet-portait-up{
 grid-row: 1/2;
-grid-column: 1/5;
+grid-column: 1/13;
     }
-
+    @include for-tablet-landscape-up{
+    grid-row: 1/2;
+    grid-column: 1/13;
+        }
 }
 .bunz-r{
 grid-column: 7/13;
@@ -47,37 +54,71 @@ grid-row: 1/4;
   grid-row: 2/3;
   grid-column: 1/5;
     }
+    @include for-tablet-landscape-up{
+    grid-row: 2/3;
+    grid-column: 1/13;
+        }
 }
 
 // Bunz Inventory Section 2 //
 .bunz-2{
 grid-template-rows: 200px 200px;
 grid-row-gap: 30px;
+@include for-tablet-landscape-up{
+  grid-template-rows: 100px 873px 200px 100px;
+}
+@include for-tablet-portait-up{
+  grid-template-rows: 60px 573px 50px 200px;
+}
 }
 .bunz-f{
 grid-column: 1/13;
 grid-row:1/2;
+@include for-tablet-landscape-up{
+grid-column: 1/13;
+grid-row: 2/3;
+}
 }
 .bunz-2l{
 grid-column:1/7;
 grid-row: 2/3;
+@include for-tablet-landscape-up{
+grid-row: 3/4;
+grid-column: 1/13;
+}
 }
 .bunz-2r{
 grid-column: 8/13;
 grid-row:2/3;
+@include for-tablet-landscape-up{
+grid-row: 4/4;
+grid-column: 1/13;
+}
 }
 
 // Bunz Inventory Section 3 //
 .bunz-3{
 grid-template-rows: 100px 400px 50px;
+@include for-tablet-landscape-up{
+grid-template-rows: 100px 500px 200px 50px;
+grid-row-gap: 60px;
+}
 }
 .bunz-3r{
 grid-column: 8/13;
 grid-row: 2/3;
+@include for-tablet-landscape-up{
+grid-column: 1/13;
+grid-row: 3/4;
+}
 }
 .bunz-3l{
 grid-column: 1/7;
 grid-row: 1/4;
+@include for-tablet-landscape-up{
+grid-column: 1/13;
+grid-row: 2/3;
+}
 }
 
 
@@ -85,21 +126,40 @@ grid-row: 1/4;
 .ada1{
 grid-template-rows: 800px 550px;
 grid-row-gap: 80px;
+@include for-tablet-landscape-up{
+  grid-template-rows: 500px 350px 250px;
+  grid-gap: 60px;
+}
 }
 .ada-1full{
 grid-row:1/2;
 grid-column: 1/13;
+@include for-tablet-landscape-up{
+  grid-column: 1/13;
+}
+
 }
 .ada-1l{
 grid-row:2/3;
 grid-column: 1/6;
+@include for-tablet-landscape-up{
+  grid-column: 1/13;
+}
 }
 
 .ada-2l{
 grid-column: 8/10;
+@include for-tablet-landscape-up{
+  grid-column: 1/13;
+  grid-row: 3/4;
+}
 }
 .ada-2la{
 grid-column: 11/13;
+@include for-tablet-landscape-up{
+  grid-column: 6/13;
+  grid-row: 3/4;
+}
 }
 
 
@@ -107,6 +167,9 @@ grid-column: 11/13;
 .ada2{
 width: 100%;
 grid-template-rows: 572px;
+@include for-tablet-landscape-up{
+grid-template-rows: 400px;
+}
 }
 
 .ada-2r{
@@ -117,6 +180,9 @@ grid-column: 1/13;
 //Ada Section 3 //
 .ada3{
 grid-template-rows: 842px;
+@include for-tablet-landscape-up{
+grid-template-rows: 400px;
+}
 }
 .ada-3full{
 grid-column: 1/13;
@@ -126,19 +192,34 @@ grid-column: 1/13;
 // Pitch Section 1 //
 .pitch1{
 grid-template-rows: 100px 400px 100px;
+@include for-tablet-landscape-up{
+grid-template-rows: 350px 550px 100px;
+grid-row-gap: 60px;
+}
 }
 .pitch-1l{
 grid-column: 1/6;
 grid-row: 2/3;
+@include for-tablet-landscape-up{
+grid-row: 1/2;
+grid-column: 1/13;
+}
 }
 .pitch-1r{
 grid-column: 7/13;
 grid-row: 1/4;
+@include for-tablet-landscape-up{
+grid-row: 2/3;
+grid-column: 1/13;
+}
 }
 
 // Pitch Section 2 //
 .pitch2{
 grid-template-rows: 720px 200px 100px;
+@include for-tablet-landscape-up{
+grid-template-rows: 420px 200px 100px;
+}
 }
 .pitch-2f{
 grid-column: 1/13;
@@ -147,6 +228,9 @@ grid-row: 1/2;
 .pitch-2l{
 grid-column: 1/6;
 grid-row: 2/3;
+@include for-tablet-landscape-up{
+grid-column: 1/13;
+}
 }
 .pitch-2r{
 grid-column: 8/13;
@@ -155,12 +239,23 @@ grid-row: 2/3;
 // Pitch Section 3 //
 .pitch3{
 grid-template-rows: 640px;
+@include for-tablet-landscape-up{
+grid-template-rows: 60px 500px 200px 60px;
+}
 }
 .pitch-3l{
 grid-column: 1/7;
+@include for-tablet-landscape-up{
+grid-column: 1/13;
+grid-row:2/3;
+}
 }
 .pitch-3r{
 grid-column: 8/13;
+@include for-tablet-landscape-up{
+grid-column: 1/13;
+grid-row:3/4;
+}
 }
 
 // Moving Posters
@@ -242,6 +337,10 @@ justify-content: flex-start;
 // Seperator //
 .border{
 grid-template-rows: repeat(3, 100px);
+@include for-tablet-portait-up{
+  grid-template-rows: repeat(3, 50px);
+}
+
 .line{
 display: flex;
 justify-content: center;
@@ -249,5 +348,8 @@ align-items: center;
 text-align: center;
 grid-row:2/3;
 grid-column: 5/9;
+@include for-tablet-portait-up{
+  grid-column: 1/13;
+}
 }
 }

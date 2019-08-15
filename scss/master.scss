@@ -54,6 +54,9 @@ background: linear-gradient(to bottom, $white, $white 50%);
 @include for-desktop{
 width: 95%;
     }
+@include for-tablet-portait-up{
+  width: 90%;
+}
 }
 
 
@@ -63,12 +66,16 @@ width: 98%;
 display: grid;
 grid-template-columns:repeat(12, 1fr);
 grid-column-gap: 30px;
-@include for-desktop{
-width: 95%;
+
+    @include for-desktop{
+    width: 95%;
+        }
+    @include for-tablet-portait-up{
+      width: 90%;
     }
-@include for-tablet-portait-up{
-  grid-template-columns: repeat(4,1fr);
-}
+    @include for-tablet-landscape-up{
+      width: 90%;
+    }
 }
 
 article{
