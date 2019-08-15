@@ -420,7 +420,8 @@ b {
   grid-row-gap: 80px; }
   @media (max-width: 900px) {
     .footer {
-      grid-template-rows: 260px 100px; } }
+      grid-template-rows: 260px 100px;
+      margin-top: 60px; } }
 
 .footer-span {
   grid-row: 1/2;
@@ -1000,7 +1001,8 @@ b {
   grid-row-gap: 80px; }
   @media (max-width: 900px) {
     .footer {
-      grid-template-rows: 260px 100px; } }
+      grid-template-rows: 260px 100px;
+      margin-top: 60px; } }
 
 .footer-span {
   grid-row: 1/2;
